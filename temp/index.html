@@ -1,7 +1,5 @@
-{% extends "layout/index.html" %}
+{% extends base_path ~ 'layout/index.html' %}
 
 {% block content %}
-
-{% include('pages/home.html') %}
-
+{% include(base_path ~ 'pages/home.html') %}
 {% endblock %}

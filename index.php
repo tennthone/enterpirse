@@ -16,7 +16,8 @@ $data = [
     'page_title' => 'My Twig Template',
     'greeting' => 'Hello, Twig!',
     'items' => ['Item 1', 'Item 2', 'Item 3'],
-    "teams" => ['team1', 'team 2', 'team 3']
+    "teams" => ['team1', 'team 2', 'team 3'],
+    "base_path" => '/'
 ];
 
 // Render the template
