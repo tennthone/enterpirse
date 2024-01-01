@@ -1,9 +1,3 @@
-{% include('sections/hero.html') %}
-{% include('sections/about.html') %}
-{% include('sections/service.html') %}
-{% include('sections/facts.html') %}
-{% include('sections/portfolio.html') %}
-{% include('sections/resume.html') %}
-{% include('sections/service.html') %}
-{% include('sections/skills.html') %}
-{% include('sections/testimonial.html') %}
+{% for section in sections %}
+    {% include('sections/' ~ section ~ '.html') %}
+{% endfor %}
